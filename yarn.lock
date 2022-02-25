@@ -1831,6 +1831,7 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-scripts: 5.0.0
+    storybook-addon-turbo-build: ^1.0.1
     typescript: ^4.5.5
     webpack: ^5.69.1
   languageName: unknown
@@ -8489,6 +8490,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"esbuild-loader@npm:^2.10.0":
+  version: 2.18.0
+  resolution: "esbuild-loader@npm:2.18.0"
+  dependencies:
+    esbuild: ^0.14.6
+    joycon: ^3.0.1
+    json5: ^2.2.0
+    loader-utils: ^2.0.0
+    tapable: ^2.2.0
+    webpack-sources: ^2.2.0
+  peerDependencies:
+    webpack: ^4.40.0 || ^5.0.0
+  checksum: 744b9f8c8fadece3feb3eb50d4dcacafd9e528be0f4c345188ba9f549a6384bd34e3fba66d22df25ec240bb7edbff4da2787d621299f134255f22c868196d091
+  languageName: node
+  linkType: hard
+
 "esbuild-netbsd-64@npm:0.14.23":
   version: 0.14.23
   resolution: "esbuild-netbsd-64@npm:0.14.23"
@@ -8531,7 +8548,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.14.14":
+"esbuild@npm:^0.14.14, esbuild@npm:^0.14.6":
   version: 0.14.23
   resolution: "esbuild@npm:0.14.23"
   dependencies:
@@ -12063,6 +12080,13 @@ __metadata:
   bin:
     jest: bin/jest.js
   checksum: 96f1d69042b3c6dfc695f2a4e4b0db38af6fb78582ad1a02beaa57cfcd77cbd31567d7d865c1c85709b7c3e176eefa3b2035ffecd646005f15d8ef528eccf205
+  languageName: node
+  linkType: hard
+
+"joycon@npm:^3.0.1":
+  version: 3.1.1
+  resolution: "joycon@npm:3.1.1"
+  checksum: 8003c9c3fc79c5c7602b1c7e9f7a2df2e9916f046b0dbad862aa589be78c15734d11beb9fe846f5e06138df22cb2ad29961b6a986ba81c4920ce2b15a7f11067
   languageName: node
   linkType: hard
 
@@ -17207,6 +17231,15 @@ __metadata:
   version: 2.13.1
   resolution: "store2@npm:2.13.1"
   checksum: c5fa1ac7dbf8431d87ad4563d9838311bb421cc6e13696b668c772192942be2e07ef20d36104f7496acab6dc4d569a9b50d6c2299ceaddbcb86628f585323ff4
+  languageName: node
+  linkType: hard
+
+"storybook-addon-turbo-build@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "storybook-addon-turbo-build@npm:1.0.1"
+  dependencies:
+    esbuild-loader: ^2.10.0
+  checksum: a33fe6863af21889280ad12f40b90c025921a52f8015610ee4e98aecb3fa8a8e229f920b6986355fbffad4a67e155810f85b00aa9ae80dd5dbe9bf756925c378
   languageName: node
   linkType: hard
 
