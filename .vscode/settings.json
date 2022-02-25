@@ -17,5 +17,7 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "git.autofetch": true,
   "git.autofetchPeriod": 300,
-  "git.pruneOnFetch": true
+  "git.pruneOnFetch": true,
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.singleQuote": true
 }
