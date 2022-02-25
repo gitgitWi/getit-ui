@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "codezombiech.gitignore",
+    "github.vscode-pull-request-github",
+    "knisterpeter.vscode-github",
+    "arcanis.vscode-zipfs",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "davidanson.vscode-markdownlint",
+    "docsmsft.docs-markdown",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "christian-kohler.npm-intellisense",
+    "mrmlnc.vscode-scss",
+    "visualstudioexptteam.vscodeintellicode-insiders",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode-completions",
+    "naumovs.color-highlight",
+    "oderwat.indent-rainbow",
+    "gencer.html-slim-scss-css-class-completion",
+    "wakatime.vscode-wakatime",
+    "eg2.vscode-npm-script",
+  ]
+}
