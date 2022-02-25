@@ -1,8 +1,17 @@
 {
   "name": "getit-ui",
+  "description": "Components Design System for My Projects",
+  "author": {
+    "name": "gitgitWi",
+    "email": "wiii@kakao.com"
+  },
   "packageManager": "yarn@3.2.0",
   "workspaces": {
-    "packages": []
+    "packages": [
+      "stories",
+      "react/**/*",
+      "vanilla/**/*"
+    ]
   },
   "devDependencies": {
     "eslint": "^8.9.0",
