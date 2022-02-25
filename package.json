@@ -6,6 +6,9 @@
     "email": "wiii@kakao.com"
   },
   "packageManager": "yarn@3.2.0",
+  "engines": {
+    "node": ">=16"
+  },
   "workspaces": {
     "packages": [
       "atoms/**/*",
@@ -14,8 +17,18 @@
       "stories"
     ]
   },
+  "scripts": {
+    "stories": "yarn workspace @getit-ui/stories",
+    "button": "yarn workspace @getit-ui/button",
+    "text": "yarn workspace @getit-ui/text"
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
     "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "latest",
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"
   }
