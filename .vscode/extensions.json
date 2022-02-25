@@ -24,6 +24,9 @@
     "gencer.html-slim-scss-css-class-completion",
     "wakatime.vscode-wakatime",
     "eg2.vscode-npm-script",
-    "ms-edgedevtools.vscode-edge-devtools"
+    "ms-edgedevtools.vscode-edge-devtools",
+    "silvenon.mdx",
+    "ms-vscode.live-server",
+    "fabiospampinato.vscode-highlight"
   ]
 }
