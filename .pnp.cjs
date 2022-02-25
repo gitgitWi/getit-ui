@@ -3511,6 +3511,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:17.0.2"],\
             ["react-scripts", "virtual:52b53d27a59e488662af0f2dd4e0f087e374a76ad299f84e784da9dad3766ffe1f7a9ad0cf1715e19e9d048e7dffc08c9b0f88e092817f9235a0b6a7e5855f70#npm:5.0.0"],\
+            ["storybook-addon-turbo-build", "npm:1.0.1"],\
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=bda367"],\
             ["webpack", "virtual:52b53d27a59e488662af0f2dd4e0f087e374a76ad299f84e784da9dad3766ffe1f7a9ad0cf1715e19e9d048e7dffc08c9b0f88e092817f9235a0b6a7e5855f70#npm:5.69.1"]\
           ],\
@@ -12896,6 +12897,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["esbuild-loader", [\
+        ["npm:2.18.0", {\
+          "packageLocation": "./.yarn/cache/esbuild-loader-npm-2.18.0-202480fa27-744b9f8c8f.zip/node_modules/esbuild-loader/",\
+          "packageDependencies": [\
+            ["esbuild-loader", "npm:2.18.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:9155709bd5818f72418b1341e8bd47485364126ee3832336718ea4a4668b3814f83c3e0fd0284342ca682faa5c1635a4697105aea08f7fe5d241e2802e884050#npm:2.18.0", {\
+          "packageLocation": "./.yarn/__virtual__/esbuild-loader-virtual-50dddfee82/0/cache/esbuild-loader-npm-2.18.0-202480fa27-744b9f8c8f.zip/node_modules/esbuild-loader/",\
+          "packageDependencies": [\
+            ["esbuild-loader", "virtual:9155709bd5818f72418b1341e8bd47485364126ee3832336718ea4a4668b3814f83c3e0fd0284342ca682faa5c1635a4697105aea08f7fe5d241e2802e884050#npm:2.18.0"],\
+            ["@types/webpack", null],\
+            ["esbuild", "npm:0.14.23"],\
+            ["joycon", "npm:3.1.1"],\
+            ["json5", "npm:2.2.0"],\
+            ["loader-utils", "npm:2.0.2"],\
+            ["tapable", "npm:2.2.1"],\
+            ["webpack", null],\
+            ["webpack-sources", "npm:2.3.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/webpack",\
+            "webpack"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["esbuild-netbsd-64", [\
         ["npm:0.14.23", {\
           "packageLocation": "./.yarn/unplugged/esbuild-netbsd-64-npm-0.14.23-4a73a8262d/node_modules/esbuild-netbsd-64/",\
@@ -17196,6 +17225,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.11.26"],\
             ["merge-stream", "npm:2.0.0"],\
             ["supports-color", "npm:8.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["joycon", [\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/joycon-npm-3.1.1-3033e0e5f4-8003c9c3fc.zip/node_modules/joycon/",\
+          "packageDependencies": [\
+            ["joycon", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -23699,6 +23737,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/store2-npm-2.13.1-e2da79f00c-c5fa1ac7db.zip/node_modules/store2/",\
           "packageDependencies": [\
             ["store2", "npm:2.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["storybook-addon-turbo-build", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/storybook-addon-turbo-build-npm-1.0.1-9155709bd5-a33fe6863a.zip/node_modules/storybook-addon-turbo-build/",\
+          "packageDependencies": [\
+            ["storybook-addon-turbo-build", "npm:1.0.1"],\
+            ["esbuild-loader", "virtual:9155709bd5818f72418b1341e8bd47485364126ee3832336718ea4a4668b3814f83c3e0fd0284342ca682faa5c1635a4697105aea08f7fe5d241e2802e884050#npm:2.18.0"]\
           ],\
           "linkType": "HARD"\
         }]\
