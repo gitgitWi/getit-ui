@@ -1,17 +1,23 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "module": "ESNext",
     "esModuleInterop": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "rootDir": "src",
+    "composite": false,
+    "declaration": false,
+    "types": [
+      "node",
+      "jest",
+    ]
   },
   "include": [
     "src"
   ],
   "references": [
-    {
-      "path": "./tsconfig.node.json"
-    },
     {
       "path": "../atoms/button"
     },
