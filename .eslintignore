@@ -1,5 +1,7 @@
-.eslintrc.js
-
+# directories
 **/node_modules/**
 **/dist/**
 **/tests/**
+
+# config files
+.eslintrc.js
