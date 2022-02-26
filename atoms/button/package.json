@@ -2,11 +2,18 @@
   "name": "@getit-ui/button",
   "private": true,
   "version": "0.0.0",
-  "main": "./dist/src/index.js",
+  "main": "./dist/button.umd.js",
+  "module": "./dist/button.es.js",
   "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/button.es.js",
+      "require": "./dist/button.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc --emitDeclarationOnly",
     "preview": "vite preview"
   },
   "devDependencies": {
