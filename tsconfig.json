@@ -17,6 +17,6 @@
       "DOM.Iterable",
       "ESNext"
     ],
-    "isolatedModules": true,
+    "isolatedModules": true, /** vite 사용시 필수 @see {https://vitejs-kr.github.io/guide/features.html#typescript-compiler-options}  */
   }
 }
