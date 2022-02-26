@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/node", "npm:17.0.21"],\
             ["@typescript-eslint/eslint-plugin", "virtual:11697e2b34af4cba7f9fd26d8b43b3696a4fb43cf8e04aa041dc96f762d235d2b5daf745de8ae54783fec924b4c103bab7a82afe0d0fc6453a636884a3d73945#npm:5.12.1"],\
             ["@typescript-eslint/parser", "virtual:11697e2b34af4cba7f9fd26d8b43b3696a4fb43cf8e04aa041dc96f762d235d2b5daf745de8ae54783fec924b4c103bab7a82afe0d0fc6453a636884a3d73945#npm:5.12.1"],\
             ["eslint", "npm:8.9.0"],\
@@ -7548,6 +7549,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.11.26"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:17.0.21", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.21-7d68eb6a13-89dcd2fe82.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:17.0.21"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@types/node-fetch", [\
@@ -14864,6 +14872,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["getit-ui", "workspace:."],\
+            ["@types/node", "npm:17.0.21"],\
             ["@typescript-eslint/eslint-plugin", "virtual:11697e2b34af4cba7f9fd26d8b43b3696a4fb43cf8e04aa041dc96f762d235d2b5daf745de8ae54783fec924b4c103bab7a82afe0d0fc6453a636884a3d73945#npm:5.12.1"],\
             ["@typescript-eslint/parser", "virtual:11697e2b34af4cba7f9fd26d8b43b3696a4fb43cf8e04aa041dc96f762d235d2b5daf745de8ae54783fec924b4c103bab7a82afe0d0fc6453a636884a3d73945#npm:5.12.1"],\
             ["eslint", "npm:8.9.0"],\
