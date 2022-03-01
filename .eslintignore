@@ -5,3 +5,4 @@
 
 # config files
 .eslintrc.js
+**/vite.config*
