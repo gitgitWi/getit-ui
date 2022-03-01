@@ -1802,6 +1802,7 @@ __metadata:
     typescript: ^4.5.4
     typescript-plugin-css-modules: ^3.4.0
     vite: ^2.8.0
+    vite-plugin-css-injected-by-js: ^1.2.1
   languageName: unknown
   linkType: soft
 
@@ -19016,6 +19017,15 @@ __metadata:
     unist-util-stringify-position: ^2.0.0
     vfile-message: ^2.0.0
   checksum: ee5726e10d170472cde778fc22e0f7499caa096eb85babea5d0ce0941455b721037ee1c9e6ae506ca2803250acd313d0f464328ead0b55cfe7cb6315f1b462d6
+  languageName: node
+  linkType: hard
+
+"vite-plugin-css-injected-by-js@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "vite-plugin-css-injected-by-js@npm:1.2.1"
+  peerDependencies:
+    vite: ">2.0.0-0"
+  checksum: b1882cf5d5a0401cb9550216f62523b9e0701c5386ef1be19b4e7ba31ddf90f75afcf677fe58ae058e94067ba90b8561beb0cf33434d2a0fa82c063a41845297
   languageName: node
   linkType: hard
 
