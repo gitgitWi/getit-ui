@@ -3480,7 +3480,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.49.9"],\
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=bda367"],\
             ["typescript-plugin-css-modules", "virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:3.4.0"],\
-            ["vite", "virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:2.8.4"]\
+            ["vite", "virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:2.8.4"],\
+            ["vite-plugin-css-injected-by-js", "virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:1.2.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -25876,6 +25877,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "less",\
             "sass",\
             "stylus"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vite-plugin-css-injected-by-js", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/vite-plugin-css-injected-by-js-npm-1.2.1-51e30620ae-b1882cf5d5.zip/node_modules/vite-plugin-css-injected-by-js/",\
+          "packageDependencies": [\
+            ["vite-plugin-css-injected-by-js", "npm:1.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:1.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/vite-plugin-css-injected-by-js-virtual-dfc455f9f2/0/cache/vite-plugin-css-injected-by-js-npm-1.2.1-51e30620ae-b1882cf5d5.zip/node_modules/vite-plugin-css-injected-by-js/",\
+          "packageDependencies": [\
+            ["vite-plugin-css-injected-by-js", "virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:1.2.1"],\
+            ["@types/vite", null],\
+            ["vite", "virtual:7980f833f52454a3e73c4100342876bbd86a3dafd486be480cff294c7827670862bbff95c8b56c4974fb6a754ef24c16443a9c389dbd371599164cb96558c58c#npm:2.8.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/vite",\
+            "vite"\
           ],\
           "linkType": "HARD"\
         }]\
