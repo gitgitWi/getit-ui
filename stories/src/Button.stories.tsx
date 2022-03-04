@@ -12,7 +12,7 @@ export default {
       defaultValue: [],
     },
     textContent: {
-      control: 'string',
+      control: 'text',
       type: { name: 'string', required: true },
       defaultValue: 'button',
     },
