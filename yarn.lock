@@ -1927,9 +1927,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@getit-ui/button-react@*, @getit-ui/button-react@workspace:atoms/button-react":
+"@getit-ui/button-react@*, @getit-ui/button-react@workspace:atoms/button-pure-react":
   version: 0.0.0-use.local
-  resolution: "@getit-ui/button-react@workspace:atoms/button-react"
+  resolution: "@getit-ui/button-react@workspace:atoms/button-pure-react"
   dependencies:
     "@storybook/react": ^6.4.19
     "@types/react": ^17.0.39

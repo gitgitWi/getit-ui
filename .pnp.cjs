@@ -26,7 +26,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       },\
       {\
         "name": "@getit-ui/button-react",\
-        "reference": "workspace:atoms/button-react"\
+        "reference": "workspace:atoms/button-pure-react"\
       },\
       {\
         "name": "@getit-ui/text",\
@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
       ["@getit-ui/button", ["workspace:atoms/button"]],\
-      ["@getit-ui/button-react", ["workspace:atoms/button-react"]],\
+      ["@getit-ui/button-react", ["workspace:atoms/button-pure-react"]],\
       ["@getit-ui/stories", ["workspace:stories"]],\
       ["@getit-ui/text", ["workspace:atoms/text"]],\
       ["getit-ui", ["workspace:."]]\
@@ -4888,10 +4888,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@getit-ui/button-react", [\
-        ["workspace:atoms/button-react", {\
-          "packageLocation": "./atoms/button-react/",\
+        ["workspace:atoms/button-pure-react", {\
+          "packageLocation": "./atoms/button-pure-react/",\
           "packageDependencies": [\
-            ["@getit-ui/button-react", "workspace:atoms/button-react"],\
+            ["@getit-ui/button-react", "workspace:atoms/button-pure-react"],\
             ["@storybook/react", "virtual:11697e2b34af4cba7f9fd26d8b43b3696a4fb43cf8e04aa041dc96f762d235d2b5daf745de8ae54783fec924b4c103bab7a82afe0d0fc6453a636884a3d73945#npm:6.4.19"],\
             ["@types/react", "npm:17.0.39"],\
             ["@types/react-dom", "npm:17.0.13"],\
@@ -4909,7 +4909,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@getit-ui/stories", "workspace:stories"],\
             ["@getit-ui/button", "workspace:atoms/button"],\
-            ["@getit-ui/button-react", "workspace:atoms/button-react"],\
+            ["@getit-ui/button-react", "workspace:atoms/button-pure-react"],\
             ["@mdx-js/react", "virtual:661df9d476d1e22f4c6984775221a1b34c64d3458c09fc37d2378c98db2221574f39fe533d0c20bd70a8c774f59881f03769e42b849ca2cf4bd80d88212f170b#npm:1.6.22"],\
             ["@storybook/addon-actions", "virtual:52b53d27a59e488662af0f2dd4e0f087e374a76ad299f84e784da9dad3766ffe1f7a9ad0cf1715e19e9d048e7dffc08c9b0f88e092817f9235a0b6a7e5855f70#npm:6.5.0-alpha.45"],\
             ["@storybook/addon-docs", "virtual:52b53d27a59e488662af0f2dd4e0f087e374a76ad299f84e784da9dad3766ffe1f7a9ad0cf1715e19e9d048e7dffc08c9b0f88e092817f9235a0b6a7e5855f70#npm:6.5.0-alpha.45"],\
