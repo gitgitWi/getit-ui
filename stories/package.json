@@ -3,13 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint \"src/**\"",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook"
   },
   "browserslist": {
     "production": [
@@ -53,6 +48,7 @@
     "webpack": "^5.69.1"
   },
   "dependencies": {
-    "@getit-ui/button": "workspace:^"
+    "@getit-ui/button": "*",
+    "@getit-ui/button-react": "*"
   }
 }

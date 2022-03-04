@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "composite": true,
-    "target": "ESNext",
+    "target": "ES6",
     "module": "ESNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -18,5 +18,13 @@
       "ESNext"
     ],
     "isolatedModules": true, /** vite 사용시 필수 @see {https://vitejs-kr.github.io/guide/features.html#typescript-compiler-options}  */
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "classnameTransform": "dashesOnly"
+        }
+      }
+    ]
   }
 }

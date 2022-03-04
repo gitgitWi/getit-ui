@@ -1,15 +1,14 @@
-import { useState } from 'react';
-
 import styles from './Button.module.scss';
 
-export function Button() {
-  const [count, setCount] = useState(0);
+export interface ButtonProps {
+  classNames?: string[];
+  textContent: string;
+}
+
+export function Button({ classNames = [], textContent }: ButtonProps) {
   return (
-    <button
-      className={styles.buttonDefault}
-      onClick={() => setCount((val) => val + 2)}
-    >
-      {count}
+    <button className={[styles.buttonDefault].concat(classNames).join(' ')}>
+      {textContent}
     </button>
   );
 }

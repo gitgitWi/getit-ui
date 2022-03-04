@@ -6,13 +6,5 @@
     "useDefineForClassFields": true,
     "esModuleInterop": false,
     "jsx": "react-jsx",
-    "plugins": [
-      {
-        "name": "typescript-plugin-css-modules",
-        "options": {
-          "classnameTransform": "dashes"
-        }
-      }
-    ]
   }
 }
